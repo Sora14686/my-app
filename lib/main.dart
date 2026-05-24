@@ -309,11 +309,11 @@ class _LearningHomePageState extends State<LearningHomePage> {
                       height: 180,
                       width: double.infinity,
                       fit: BoxFit.cover,
-                      placeholder: (_, __) => const SizedBox(
+                      placeholder: (_, _) => const SizedBox(
                         height: 180,
                         child: Center(child: CircularProgressIndicator()),
                       ),
-                      errorWidget: (_, __, ___) => const SizedBox(
+                      errorWidget: (_, _, _) => const SizedBox(
                         height: 180,
                         child: Center(child: Text('Invalid image URL')),
                       ),
